@@ -1,6 +1,13 @@
 version: '3.8'
 services:
   hello-spring-boot-app:
-    image: nazia141/hello-spring-boot-app
+    image: nazia141/hello-spring-boot-app:1.3
+    container_name: hello-spring-boot-app-container
     ports:
       - "8080:8080"
+    networks:
+      - keploy-network
+
+networks:
+  keploy-network:
+    external: true

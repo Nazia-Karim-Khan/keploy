@@ -2,7 +2,7 @@
 path: ""
 appId: 0
 appName: spring-boot-demo
-command: java -jar target/springbootapp-0.0.1-SNAPSHOT.jar
+command: docker-compose up
 templatize:
     testSets: []
 port: 0
@@ -12,7 +12,7 @@ proxyPort: 16789
 debug: false
 disableTele: false
 disableANSI: false
-containerName: ""
+containerName: hello-spring-boot-app-container
 networkName: ""
 buildDelay: 30
 test:
