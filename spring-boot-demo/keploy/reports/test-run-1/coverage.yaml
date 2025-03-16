@@ -1,0 +1,7 @@
+file_coverage:
+    com/example/spring_boot_demo/HelloWorldController: 100.00%
+    com/example/spring_boot_demo/SpringBootDemoApplication: 100.00%
+total_coverage: 100.00%
+loc:
+    total: 13
+    covered: 13
